@@ -904,7 +904,7 @@ socket.on('contactInfo', ({ contacts }) => {
             <h5 class="font-size-14">${created_at}</h5>
         </div>
         <div class="mt-4">
-          <p class="text-muted mb-1">Location</p>
+          <p class="text-muted mb-1">Github profile</p>
           <h5 class="font-size-14 mb-0">${contact.location}</h5>
         </div>
     `;

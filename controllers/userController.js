@@ -83,7 +83,7 @@ exports.signup = catchAsync(async (req, res, next) => {
     }else if (req.body.location === '') {
         return res.status(200).json({
             status: 'fail',
-            message: 'Please enter location'
+            message: 'Please enter git link'
         });
     }else if(invalidEmail.length > 0){
         return res.status(200).json({

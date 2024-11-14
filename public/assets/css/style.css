@@ -245,7 +245,26 @@ body{
   background-color: var(--primary)!important;
 }
 
-.chat-welcome-section,.tab-pane,.simplebar-content-wrapper,#userProfileBar,.chat-input-section,.side-menu,.accordion-body,.chat-leftsidebar{
+.chat-welcome-section,.tab-pane,#userProfileBar,.chat-input-section,.side-menu,.accordion-body,.chat-leftsidebar,.user-chat{
   background-color: var(--primary)!important;
 
+}
+
+
+.side-menu{
+  background-color: var(--secondary)!important;
+}
+
+.user-chat{
+  border-width: 1px;
+  border-style: solid;
+  border-left-color: #130e0e!important;
+  border-top-color: none!important;
+  border-right-color: none!important;
+  border-bottom-color: none!important;
+  
+}
+
+.chat-input-links>li , .chat-input-links > button{
+  color: #000 !important;;
 }
