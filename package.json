@@ -1,5 +1,5 @@
 {
-  "name": "GitChat Chat App",
+  "name": "GitChat",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -12,6 +12,7 @@
   "dependencies": {
     "axios": "^0.24.0",
     "bcryptjs": "^2.4.3",
+    "bootstrap-icons": "^1.11.3",
     "cookie-parser": "^1.4.5",
     "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
