@@ -1,6 +1,6 @@
 const dotenv = require('dotenv');
 const mysql = require('mysql');
-
+const keys = require('./env');
 // configraration with env. 
 dotenv.config();
 var dbConnection = mysql.createConnection({

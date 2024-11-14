@@ -1,4 +1,4 @@
-module.keys= {
+const keys= {
   NODE_ENV: "production",
   PORT: "9090",
   DATABASE: "",
@@ -11,3 +11,4 @@ module.keys= {
   DB_PASSWORD: "",
 };
 
+module.exports = keys;
