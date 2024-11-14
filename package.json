@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
+    "run": "nodemon app.js",
     "start:prod": "NODE_ENV=production nodemon app.js"
   },
   "author": "kissimbila16",
