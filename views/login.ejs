@@ -19,6 +19,7 @@
   <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
   <link href="./assets/css/toastr.min.css" rel="stylesheet" />
   <link href="assets/css/style.css" id="app-style" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
 </head>
 
 <body>
@@ -37,12 +38,10 @@
       <div class="row justify-content-center">
         <div class="col-md-8 col-lg-6 col-xl-5">
           <div class="text-center mb-4">
-            <a href="/" class="auth-logo mb-5 d-block">
-              <i className="bi bi-github fs-1 text-dark"></i>
-              kissi
+            <a href="/" class="auth-logo mb-2 d-block">
+              <i class="bi bi-github text-light" style="font-size: 5rem;"></i>
             </a>
             <h4>Sign in</h4>
-            <p class="text-muted mb-4">Sign in to continue to GitChat.</p>
           </div>
 
           <div class="card">
@@ -73,7 +72,7 @@
                   </div>
 
                   <div class="mb-4">
-                    <div class="g-recaptcha" data-sitekey="<%= process.env.CAPTCHA_SITEKEY %>"></div>
+                    <div class="g-recaptcha" data-sitekey="<%= process.env.CAPTCHA_SITEKEY %>" ></div>
                   </div>
 
                   <div class="form-check mb-4">
